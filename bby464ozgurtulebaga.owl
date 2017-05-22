@@ -1,0 +1,1406 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/8s38eoYle4nR78EuqV0iiC#"
+     xml:base="http://webprotege.stanford.edu/project/8s38eoYle4nR78EuqV0iiC"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/8s38eoYle4nR78EuqV0iiC"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99PcAhThxgta5M1d1uj3Vl -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R99PcAhThxgta5M1d1uj3Vl">
+        <rdfs:label>Coach</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBe582De1cYHnNn6VqODhYv -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBe582De1cYHnNn6VqODhYv">
+        <rdfs:label>Achievements</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:seeAlso xml:lang="tr">Seasons</rdfs:seeAlso>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83L8cDwcCMeZpkLwLK7bkG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R83L8cDwcCMeZpkLwLK7bkG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="tr">CoachNationality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUWBjk1LazyJzTeFmCD2UG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RUWBjk1LazyJzTeFmCD2UG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="tr">Coachforeign</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Jn8Xp2t3lsYlWTh9Bzdrs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9Jn8Xp2t3lsYlWTh9Bzdrs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="tr">ranking</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPT9Fe6F9R3b3UDOu5QKpM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCPT9Fe6F9R3b3UDOu5QKpM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoachName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRB5tMsd7Pugglerqnt6bV -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RRB5tMsd7Pugglerqnt6bV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Season</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2v7Ukmlxe9XbGrgyOx7pR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2v7Ukmlxe9XbGrgyOx7pR">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Besiktas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhyhuBB6hTZMCjqdxWv5Ba"/>
+        <rdfs:label xml:lang="tr">Men Team A</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">TeamA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBFCgdLRf5eJV8nEUV5MZGx"/>
+        <rdfs:label>TeamA</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Men Team A</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFCgdLRf5eJV8nEUV5MZGx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFCgdLRf5eJV8nEUV5MZGx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R2v7Ukmlxe9XbGrgyOx7pR"/>
+        <rdfs:label>Basketball</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhyhuBB6hTZMCjqdxWv5Ba -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBhyhuBB6hTZMCjqdxWv5Ba">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R2v7Ukmlxe9XbGrgyOx7pR"/>
+        <rdfs:label>Football</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4CBfiazpVxMplHtOuqOCT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R4CBfiazpVxMplHtOuqOCT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ertuğrul Sağlam</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007-2008</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 49</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4gFJU3BqgOHDXY9soarXA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R4gFJU3BqgOHDXY9soarXA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Hans Peter Briegel</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999-2000</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 41</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5Dp2O5m6xlPioZTKbAhXq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5Dp2O5m6xlPioZTKbAhXq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R7oWoNPFeX3ACJOmDWq9ERe"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Mircea Lucescu</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002-2003</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 44</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5Lgz6G7fgbsYZCPaUGbD2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5Lgz6G7fgbsYZCPaUGbD2">
+        <rdfs:label>Fransız</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77amEAYYtaksNVDLVxl4Ok -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R77amEAYYtaksNVDLVxl4Ok">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Bernhard Schuster</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-2010</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 51</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PnSQ34VvCdZf7UD13SrpV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7PnSQ34VvCdZf7UD13SrpV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-2001 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 5.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Y5jcgD1viFeqZfGi2UwzH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Y5jcgD1viFeqZfGi2UwzH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Horst Buhtz</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1974-1975</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 17</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dsrpUiIi2Y8yObpEkYTrP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7dsrpUiIi2Y8yObpEkYTrP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">İsmet Arıkan</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1976-1977</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 19</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eOl3EhEhw1XSNT5JbeaBf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7eOl3EhEhw1XSNT5JbeaBf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R877G5TSIWkfEiiS2gTjHKG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Andras Kutik</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1961-1962</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 4.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ji038rCFZ9ypa6YCIdPVV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ji038rCFZ9ypa6YCIdPVV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8yIvruqN578xKq2K7HeKIr"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Nevio Scala</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-2001</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 42</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nyKkGtCOSNVuogQHppFwr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7nyKkGtCOSNVuogQHppFwr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Rasim Kara</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996-1997</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 38</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7oWoNPFeX3ACJOmDWq9ERe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7oWoNPFeX3ACJOmDWq9ERe">
+        <rdfs:label>Rumen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7v9njC7wxv9k3OtJAzAvz4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7v9njC7wxv9k3OtJAzAvz4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Murat Didin</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2005-2006 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 10.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R877G5TSIWkfEiiS2gTjHKG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R877G5TSIWkfEiiS2gTjHKG">
+        <rdfs:label>Macar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87IAybniFVVZO7YV0TDe4K -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R87IAybniFVVZO7YV0TDe4K">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rp3387Jie39FfmVPzKoWKu"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Henrik Dettman</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2015-2016 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 20.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88IPO63ElZOsEyNMvxPRVe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R88IPO63ElZOsEyNMvxPRVe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2002-2003 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 7.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UOw0HJTn3WsJu4zsCQn00 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8UOw0HJTn3WsJu4zsCQn00">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Şenol Güneş</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-2017</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 58</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8URp24b810UBewNgTCxVen -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8URp24b810UBewNgTCxVen">
+        <rdfs:label>Portugal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YfiCD7snwNF2eqO2eklmU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8YfiCD7snwNF2eqO2eklmU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ljubisa Spayiç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1962-1963</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gEOgoBBMeLnrcsMaEJPJY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8gEOgoBBMeLnrcsMaEJPJY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Christoph Daum</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993-1994</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 35</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8j3Rjn0o48eKtCk424DKln -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8j3Rjn0o48eKtCk424DKln">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R877G5TSIWkfEiiS2gTjHKG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Andras Kutik</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1959-1960</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">SecondSeason</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jqoetaLONCk2txrliYKI9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8jqoetaLONCk2txrliYKI9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ergin Ataman</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2007-2008 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 12.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yIvruqN578xKq2K7HeKIr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8yIvruqN578xKq2K7HeKIr">
+        <rdfs:label>İtalyan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx">
+        <rdfs:label>Alman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zviKrt0GAegglxHge6Jtj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zviKrt0GAegglxHge6Jtj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RQIBX8t0weBJ4ublgVpO7a"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Slaven Biliç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-2014</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 55</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97LrHSiHOmG64GI3LzmBnA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R97LrHSiHOmG64GI3LzmBnA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Christoph Daum</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994-1995</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 36</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AIRBHwuiNKOc8q5EnNSA0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9AIRBHwuiNKOc8q5EnNSA0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gordon Milne</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992-1993</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 34</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9LETs81P62MhgvSXZ39gC7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9LETs81P62MhgvSXZ39gC7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Serpil Hamdi Tüzün</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1979-1980</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 22</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ss2z7OZaynlEHeK2uJMmL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Ss2z7OZaynlEHeK2uJMmL">
+        <rdfs:label>Hungarian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XFBngenU6D4SiAZsKmt15 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9XFBngenU6D4SiAZsKmt15">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Doğan Andaç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1978-1979</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 21</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZLVpfgfsU2e23sLqnLRys -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZLVpfgfsU2e23sLqnLRys">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R5Lgz6G7fgbsYZCPaUGbD2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Jane Tigana</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006-2007</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 48</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gWxDAsfrfS5Qyz0psXz6R -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9gWxDAsfrfS5Qyz0psXz6R">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Şenol Güneş</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-2106</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 57</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBBSbmexS38exMGDaka7MQZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBBSbmexS38exMGDaka7MQZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ernst Malchior</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1966-1967</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG">
+        <rdfs:label>yugoslav</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKDKRGA0OyXQgXZIKt43LZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBKDKRGA0OyXQgXZIKt43LZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R7oWoNPFeX3ACJOmDWq9ERe"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Mircea Lucescu</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003-2004</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 45</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOL9vXoLsjzyRmG8d4qD71 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBOL9vXoLsjzyRmG8d4qD71">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">İhsan Bayülken</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2004-2005 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 9.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQuVtEU72GqppzGtbTGF7m -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQuVtEU72GqppzGtbTGF7m">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Erman Kunter</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2012-2013 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 17.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgQODL5LsObPGQt27HqtpT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgQODL5LsObPGQt27HqtpT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Branko Stankoviç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984-1985</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 27</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlJyTdmIDCJLoihzInbCGl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBlJyTdmIDCJLoihzInbCGl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Jane Javeski</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1967-1968</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmA11KV6s2flL7l390uQml -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBmA11KV6s2flL7l390uQml">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001-2002 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 6.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwFPGpLOilBUKQ5qQc8qre -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBwFPGpLOilBUKQ5qQc8qre">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Milovan Çiriç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1969-1970</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 12</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0fZtxmKVKp2gp9SFQiMOK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0fZtxmKVKp2gp9SFQiMOK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RGv0W0M8YSlraORk5VLb1M"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Dumitru Teoderescu</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1970-1971</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 13</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBQ0aH9BzHWEsDHBESxUjD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCBQ0aH9BzHWEsDHBESxUjD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Burak Bıyıktay</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-2011 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 15.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCAnBAFxPe73lT0iRmbyGp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCCAnBAFxPe73lT0iRmbyGp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-2015 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 19.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCM6VAVaxBsfv0mP7yp0P6A -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCM6VAVaxBsfv0mP7yp0P6A">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ufuk Sarıca</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2016-2017 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 21.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A">
+        <rdfs:label>Avusturya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNgjLbGF0IUDo28lyta7Eb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCNgjLbGF0IUDo28lyta7Eb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Hüseyin Saygun Türk</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">FirstSeason</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQgeCq2rorSNxkEunscVSK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCQgeCq2rorSNxkEunscVSK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ernst Malchior</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965-1966</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSJKsc8jQzoQP1eKxKUfv4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCSJKsc8jQzoQP1eKxKUfv4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ziya Taner</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983-1984</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 26</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYNbVobfVtN9bhUfclRCSP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCYNbVobfVtN9bhUfclRCSP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Abdullah Gegiç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1972-1973</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 15</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmxH0L6Xy9jR1BxdxfBwr9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCmxH0L6Xy9jR1BxdxfBwr9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Dorde Miliç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982-1983</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 25.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuDul98oIUf20YZA8m7Qyr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCuDul98oIUf20YZA8m7Qyr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İhsan Bayülken</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2003-2004 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 8.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuO42yq0xu6GrhjqW3cUQ0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCuO42yq0xu6GrhjqW3cUQ0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Metin Türel</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1980-1981</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 23.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCytdJI1ckCSYjITAsAtZbH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCytdJI1ckCSYjITAsAtZbH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gündüz Tekin Onay</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975-1976</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD072BdBvSk0DoRBK5syIUv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD072BdBvSk0DoRBK5syIUv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Murat Didin</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2006-2007 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 11.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBcwlv3jQuzDOdcwHRdax0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDBcwlv3jQuzDOdcwHRdax0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RDKtdBQA9xml962FUNgFXvj"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Benjamin Toshack</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997-1998</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 39</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIA5z9LlEJu7GKpUY2eWgG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDIA5z9LlEJu7GKpUY2eWgG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Metin Türel</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1973-1974</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 16</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKtdBQA9xml962FUNgFXvj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDKtdBQA9xml962FUNgFXvj">
+        <rdfs:label>Galler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo">
+        <rdfs:label>Evet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDLvV8QFVvKCYyEuNXiL7fb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDLvV8QFVvKCYyEuNXiL7fb">
+        <rdfs:label>Bulgar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMlbzKV7fib1hmqvEnmJIH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDMlbzKV7fib1hmqvEnmJIH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Bernhard Schuster</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-2011</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 52</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNSN0PYSmMSQ2Zocmjvipp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDNSN0PYSmMSQ2Zocmjvipp">
+        <rdfs:label>Yes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOvd3a4iy9Y4CIclAYfYZR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDOvd3a4iy9Y4CIclAYfYZR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ernst Melchior</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963-1964</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXjT7fiOCAQx6kIlGsCqjJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXjT7fiOCAQx6kIlGsCqjJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RQIBX8t0weBJ4ublgVpO7a"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Slaven Biliç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-2015</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 56</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdplszsd7pbp88bGwcNcMA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDdplszsd7pbp88bGwcNcMA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Miloş Milutinoviç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986-1987</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfdic9ZFsBcDcqet22s1nU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDfdic9ZFsBcDcqet22s1nU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ergin Ataman</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2011-2012 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 16.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfe9Jc1o0SE6PoMG2sk1pv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDfe9Jc1o0SE6PoMG2sk1pv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RDLvV8QFVvKCYyEuNXiL7fb"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Krum Milev</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1968-1969</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDowhQyvFAubUiWgZu9nm8C -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDowhQyvFAubUiWgZu9nm8C">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-2014 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 18.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvOiEK9ew9zM3TNIKnoQD2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDvOiEK9ew9zM3TNIKnoQD2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">1997-1998 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyvluPjnWOPDRvHeUrlbO6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDyvluPjnWOPDRvHeUrlbO6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998-1999 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGmoFKGCeeX1ZLi2lsna72 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGmoFKGCeeX1ZLi2lsna72">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Dorde Miliç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1981-1982</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 24</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGv0W0M8YSlraORk5VLb1M -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGv0W0M8YSlraORk5VLb1M">
+        <rdfs:label>Romen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKhV1LmZfBIEFW0vC1pzq7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKhV1LmZfBIEFW0vC1pzq7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gordon Milne</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1987-1988</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 30</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQIBX8t0weBJ4ublgVpO7a -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RQIBX8t0weBJ4ublgVpO7a">
+        <rdfs:label>Hırvat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RR7XNCrfvRe0LE2QZ4wDfp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RR7XNCrfvRe0LE2QZ4wDfp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Samet Aybaba</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-2013</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 54</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRf4frgyXkiWBZ7GK9chQI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRf4frgyXkiWBZ7GK9chQI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ahmet Kandemir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">1999-2000 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSSQjx6I4XEcPODBNscNI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSSQjx6I4XEcPODBNscNI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Christoph Daum</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995-1996</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 37</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6wFMWncZpYTzOtloOOzR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6wFMWncZpYTzOtloOOzR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8URp24b810UBewNgTCxVen"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Carlos Carhalval</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Tayfur Havutçu</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-2012</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 53</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUFFleNQTWwftOAHhlhqiZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RUFFleNQTWwftOAHhlhqiZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Karl Heinz Feldkamp</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998-1999</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 40</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYRGN2LpXEJV5ZLYDxCcJG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYRGN2LpXEJV5ZLYDxCcJG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hakan Demir</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2008-2009 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 13.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcrXH0wHyYRWhic77pPVFV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RcrXH0wHyYRWhic77pPVFV">
+        <rdfs:label>İspanyol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rd9TEtbzZWsd5Mcqq0AZs3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rd9TEtbzZWsd5Mcqq0AZs3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Milos Milutunoviç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1977-1978</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdkWgGnrpNfwryn50HQ791 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdkWgGnrpNfwryn50HQ791">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Burak Bıyıktay</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">2009-2010 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 14.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3">
+        <rdfs:label>Hayır</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj4yJCS6V13QTOqlXDzAAy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rj4yJCS6V13QTOqlXDzAAy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gordon Milne</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989-1990</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 32</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjB3VCBOhn9EojZHxaHnMA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjB3VCBOhn9EojZHxaHnMA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RcrXH0wHyYRWhic77pPVFV"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Vicente Del Bosque</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004-2005</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 46</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp3387Jie39FfmVPzKoWKu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rp3387Jie39FfmVPzKoWKu">
+        <rdfs:label>Finland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpbHnRFKw4rKd72vkSGy1L -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RpbHnRFKw4rKd72vkSGy1L">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8yIvruqN578xKq2K7HeKIr"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Sandra Puppo</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960-1961</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">ThirdSeason</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpsqsEozndH4XKfca8t9vg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RpsqsEozndH4XKfca8t9vg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RBEfn6kWPYNFMQAAC0YN1cG"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Branko Stankoviç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985-1986</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rqz9aCHcsH7j5zkkQGjklO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rqz9aCHcsH7j5zkkQGjklO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gordon Milne</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988-1989</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 31</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr4Eu63qgEnVFbhP0CgQxh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rr4Eu63qgEnVFbhP0CgQxh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gordon Milne</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991-1992</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 33</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrnmacR1dmKZFIV62MHfzx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RrnmacR1dmKZFIV62MHfzx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9HV7aTBL3UQjTxvoHMttzp"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Erman Kunter</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV xml:lang="tr">1996-1997 TBL</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtfkBRvop7h2YA6S5PwsWK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RtfkBRvop7h2YA6S5PwsWK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RhzEUDfSV67QrxDHkG0WF3"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Gündüz Kılıç</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971-1972</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtrNVo0WQDVWsLVyDwrjBx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RtrNVo0WQDVWsLVyDwrjBx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R5Lgz6G7fgbsYZCPaUGbD2"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Jean Tigana</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-2006</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 47</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rv9YDlbKGFR2GpFKybEUmJ">
+        <rdfs:label>İngiliz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxgpzwJ5oMwaeTJKEeRD5G -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RxgpzwJ5oMwaeTJKEeRD5G">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/R8zt3kRB8UmrOHm9bL8Phtx"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Christoph Daum</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001-2002</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">Season 43</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzRVKINe276yROMTWZhwmP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RzRVKINe276yROMTWZhwmP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KF7ykIMvMkneAf7ng9qc2"/>
+        <webprotege:R83L8cDwcCMeZpkLwLK7bkG rdf:resource="http://webprotege.stanford.edu/RCMjNw39OBQ18NqGQ64yb0A"/>
+        <webprotege:RUWBjk1LazyJzTeFmCD2UG rdf:resource="http://webprotege.stanford.edu/RDL4UBGfJuRFxeXOCDKogWo"/>
+        <webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.</webprotege:R9Jn8Xp2t3lsYlWTh9Bzdrs>
+        <webprotege:RCPT9Fe6F9R3b3UDOu5QKpM xml:lang="tr">Ernst Melchior</webprotege:RCPT9Fe6F9R3b3UDOu5QKpM>
+        <webprotege:RRB5tMsd7Pugglerqnt6bV rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1964-1965</webprotege:RRB5tMsd7Pugglerqnt6bV>
+        <rdfs:label xml:lang="tr">season 7</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
